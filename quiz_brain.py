@@ -5,11 +5,6 @@ class QuizBrain:
         self.score = 0
 
     def still_has_question(self):
-        # length = len(self.question_list)
-        # if self.question_number < length:
-        #     return True
-        # else:
-        #     return False
         return self.question_number < len(self.question_list)
 
     def next_question(self):
